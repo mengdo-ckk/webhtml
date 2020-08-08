@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="../移动端拉勾网/iconfont/iconfont.css">
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color:#868686;
+        }
+        img{
+            display: block;
+        }
+        .l{float: left;}
+        .r{float:right;}
+
+        header{
+            height: 45px;
+            border-bottom: 1px #a3e4d5 solid;
+            font-size: 20px;
+            text-align: center;
+            line-height:45px;
+            background-color: #00b38a;
+            color: white;
+        }
+        .login{
+            height: 44px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px #ececec solid;
+        }
+        .login p{
+            font-size: 16px;
+            color:#868686 ;
+            margin-left: 17px;
+        }
+        .login div{
+            width: 85px;
+            height: 30px;
+            border-radius: 15px;
+            background-color:#f5f5f5;
+            margin-right: 15px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .login a{
+            display: block;
+            color:#15b993;
+            width: 85px;
+            height: 30px;
+        }
+        .list h2{
+            font-size:16px;
+            color:#333333;
+            margin-top: 5px;
+            
+        }
+        .list li{
+            width: 100%;
+            height: 90px;
+            display:flex;
+            align-items: center;
+            border-bottom: 1px #ececec solid ;
+        }
+        .list .list_img{
+            width: 60px;
+            margin: 0 10px 0px 14px;
+        }
+        .list .list_img img{
+            width: 100%;
+        }
+        .list .list_info{
+            flex-grow: 1;
+        }
+        .list .list_info_center{
+            display:flex;
+            justify-content: space-between;
+            margin:8px 14px 10px 0;
+        }
+        .list .list_info_center span:last-of-type{color:#0bb68f;}
+        .list .list_info_data{
+             font-size: 10px;color: #888888;
+        }
+        
+        .more{
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 15px;
+            background-color: #fafafa;
+            
+        }
+        .more a{color: black;display: block;height: 50px;}
+        
+        .footer{height: 114px;text-align: center;font-size: 12px;color: black;margin-top: 27px;box-sizing: border-box;}
+        .footer p:last-child{margin-top: 12px;}
+        .footer a{color: black;}
+        .footer .active:active{color: #999999;}
+
+        .tabbar {width: 100%; height: 46px;background-color: #ececec;display: flex;position: fixed;bottom: 0;justify-content: space-evenly;}
+        .tabbar div{flex: 1;text-align: center;line-height: 46px; }
+        .tabbar .left{background-color: #c2f1e5;}
+        .tabbar .active{color: #15b993;}
+        .tabbar i{font-size: 20px;}
+        .tabbar a{display: block;width: 100%;height: 46px;}
+    </style>
+</head>
+<body>
+    <header id="head">拉勾网</header>
+    <section class="login">
+        <p>10秒钟定制职位</p>
+        <div><a href="#">去登录</a></div>
+    </section>
+    <ul class="list">
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="../移动端拉勾网/images/jinritoutiao.jpeg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>字节跳动</h2>
+                <p class="list_info_center">
+                    <span>UGC内容审核管理岗[北京]</span>
+                    <span>12k-21k</span>
+                </p>
+                <p class="list_info_data">今天 18:51</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="../移动端拉勾网/images/jinritoutiao.jpeg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>字节跳动</h2>
+                <p class="list_info_center">
+                    <span>UGC内容审核管理岗[北京]</span>
+                    <span>12k-21k</span>
+                </p>
+                <p class="list_info_data">今天 18:51</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="../移动端拉勾网/images/jinritoutiao.jpeg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>字节跳动</h2>
+                <p class="list_info_center">
+                    <span>UGC内容审核管理岗[北京]</span>
+                    <span>12k-21k</span>
+                </p>
+                <p class="list_info_data">今天 18:51</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="../移动端拉勾网/images/jinritoutiao.jpeg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>字节跳动</h2>
+                <p class="list_info_center">
+                    <span>UGC内容审核管理岗[北京]</span>
+                    <span>12k-21k</span>
+                </p>
+                <p class="list_info_data">今天 18:51</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="../移动端拉勾网/images/jinritoutiao.jpeg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>字节跳动</h2>
+                <p class="list_info_center">
+                    <span>UGC内容审核管理岗[北京]</span>
+                    <span>12k-21k</span>
+                </p>
+                <p class="list_info_data">今天 18:51</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="../移动端拉勾网/images/jinritoutiao.jpeg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>字节跳动</h2>
+                <p class="list_info_center">
+                    <span>UGC内容审核管理岗[北京]</span>
+                    <span>12k-21k</span>
+                </p>
+                <p class="list_info_data">今天 18:51</p>
+            </div>
+        </li>
+        <li>
+            <div class="list_img">
+                <a href="#"><img src="../移动端拉勾网/images/jinritoutiao.jpeg" alt=""></a>
+            </div>
+            <div class="list_info">
+                <h2>字节跳动</h2>
+                <p class="list_info_center">
+                    <span>UGC内容审核管理岗[北京]</span>
+                    <span>12k-21k</span>
+                </p>
+                <p class="list_info_data">今天 18:51</p>
+            </div>
+        </li>
+    </ul>
+    <section class="more"><a href="#">加载更多</a></section>
+    <footer class="footer">
+        <p>&copy;2020&nbsp;&nbsp;lagou.com,all&nbsp;right&nbsp;resreved</p>
+        <p>
+            <a  class="active" href="#">移动版</a>&nbsp;&nbsp;&nbsp;<a href="#">电脑版</a>&nbsp;&nbsp;&nbsp;<a href="#head">回顶部</a>
+        </p>
+    </footer>
+    <section class="tabbar">
+        <div class="left">
+            <a class="active" href="#"><i class="iconfont iconshouye"></i>&nbsp;职位</a>
+        </div>
+        <div class="center">
+            <a href="#"><i class="iconfont iconsousuo"></i>&nbsp;搜索</a>
+        </div>
+        <div class="right">
+            <a href="#"><i class="iconfont iconwode2"></i>&nbsp;我的</a>
+        </div>
+    </section>
+</body>
+</html>
